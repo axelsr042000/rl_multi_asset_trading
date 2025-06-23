@@ -60,9 +60,25 @@ A **linear Q-learning algorithm** with momentum is implemented to make discrete 
 
 ---
 
+## 📓 Notebooks
+
+This repository includes two versions of the main project notebook:
+
+- [`multi_asset_rl_clean.ipynb`](./multi_asset_rl_clean.ipynb):  
+  A lightweight version of the notebook **without training outputs**, optimized for direct viewing on GitHub.
+
+- [`multi_asset_rl_full_output.ipynb`](./multi_asset_rl_full_output.ipynb):  
+  The complete notebook **with all plots and training outputs**.  
+  Due to GitHub’s 10 MB size limit, this version cannot be rendered in-browser and must be downloaded to view locally.
+
+> 🔽 To view the full version, download it or open in [nbviewer](https://nbviewer.org).
+
+---
+
 ## 📂 Project Structure
 
 ```bash
-├── 40006_Axel_Saint_Romain.ipynb  # Main notebook with full implementation
-├── data/                          # Contains price data for AAPL, MSI, SBUX
-├── README.md                      # Project documentation
+├── multi_asset_rl_clean.ipynb       # Lightweight notebook (GitHub-viewable)
+├── multi_asset_rl_full_output.ipynb # Full version with training plots
+├── data/                            # Contains price data for AAPL, MSI, SBUX
+├── README.md                        # Project documentation
