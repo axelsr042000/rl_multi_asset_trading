@@ -80,5 +80,5 @@ This repository includes two versions of the main project notebook:
 ```bash
 ├── multi_asset_rl_clean.ipynb       # Lightweight notebook (GitHub-viewable)
 ├── multi_asset_rl_full_output.ipynb # Full version with training plots
-├── data/                            # Contains price data for AAPL, MSI, SBUX
+├── aapl_msi_sbux.csv                # Contains price data for AAPL, MSI, SBUX
 ├── README.md                        # Project documentation
