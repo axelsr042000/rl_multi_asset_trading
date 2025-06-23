@@ -32,9 +32,9 @@ A **linear Q-learning algorithm** with momentum is implemented to make discrete 
 
 - **Reward**:
   - Defined as the **change in total portfolio value** between time steps:
-    \begin{equation*}
+    $$
     r_{t+1} = π_{t+1} - π_t
-    \end{equation*}
+    $$
 
 - **Execution Rules**:
   - Always sell before attempting buys.
@@ -43,9 +43,9 @@ A **linear Q-learning algorithm** with momentum is implemented to make discrete 
 ### Q-Learning Agent
 
 - **Q-function** approximated using a **linear model**:
-  \begin{equation*}
+  $$
   Q(s_t, a) = W_a ⋅ s_t + b_a
-  \end{equation*}
+  $$
   - `W`: weight matrix (27 × 7)
   - `b`: bias vector (27 × 1)
 
